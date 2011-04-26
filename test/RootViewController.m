@@ -10,6 +10,10 @@
 
 @implementation RootViewController
 
+- (void) addObjectToArr:(id)obj {
+    [self insertObject:obj inArrAtIndex:[self.arr count]];
+}
+
 @synthesize arr;
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -19,7 +23,7 @@
     
     NSLog(@"setting arr...");
     self.arr = [NSMutableArray array];
-    [self insertObject:@"test" inArrAtIndex:0];
+    [self addObjectToArr:@"test"];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

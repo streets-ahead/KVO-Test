@@ -969,27 +969,27 @@
     c =     (
                 {
             l = DetailViewController;
-            r = "{3736, 24}";
+            r = "{3819, 24}";
             s = 1;
         },
                 {
             l = DetailViewController;
-            r = "{3787, 24}";
+            r = "{3870, 24}";
             s = 1;
         },
                 {
             l = "Nib name";
-            r = "{3837, 12}";
+            r = "{3920, 12}";
             s = 1;
         }
     );
-    r = "{0, 4511}";
+    r = "{0, 4594}";
     s = 0;
 }</string>
 		</dict>
-		<real>325540735.81509</real>
-		<string>{40, 1178}</string>
-		<string>{494, 0}</string>
+		<real>325540808.17005998</real>
+		<string>{0, 1067}</string>
+		<string>{574, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1393,7 +1393,7 @@
 				<integer>137</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>325540731.33465999</real>
+			<real>325540801.56674802</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1404,7 +1404,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 1:58 PM</string>
+		<string>Today at 2:00 PM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -2635,27 +2635,27 @@
     c =     (
                 {
             l = DetailViewController;
-            r = "{3736, 24}";
+            r = "{3819, 24}";
             s = 1;
         },
                 {
             l = DetailViewController;
-            r = "{3787, 24}";
+            r = "{3870, 24}";
             s = 1;
         },
                 {
             l = "Nib name";
-            r = "{3837, 12}";
+            r = "{3920, 12}";
             s = 1;
         }
     );
-    r = "{0, 4511}";
+    r = "{0, 4594}";
     s = 0;
 }</string>
 		</dict>
-		<real>325540735.81716198</real>
-		<string>{40, 1178}</string>
-		<string>{494, 0}</string>
+		<real>325540808.172297</real>
+		<string>{0, 1067}</string>
+		<string>{574, 0}</string>
 		<string>-viewDidLoad</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
