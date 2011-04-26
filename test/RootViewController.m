@@ -19,7 +19,7 @@
     
     NSLog(@"setting arr...");
     self.arr = [NSMutableArray array];
-    [self.arr addObject:@"test"];
+    [[self mutableArrayValueForKey:@"arr"] addObject:@"test"];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
