@@ -19,12 +19,32 @@
     
     NSLog(@"setting arr...");
     self.arr = [NSMutableArray array];
-    [[self mutableArrayValueForKey:@"arr"] addObject:@"test"];
+    [self insertObject:@"test" inArrAtIndex:0];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     //View change
     NSLog(@"it changed: %@", [change objectForKey:NSKeyValueChangeKindKey]);
+}
+
+- (NSUInteger)countOfArr {
+    return [self.arr count];
+}
+
+- (id)objectInArrAtIndex:(NSUInteger)index {
+    return [self.arr objectAtIndex:index];
+}
+
+- (void)insertObject:(id)obj inArrAtIndex:(NSUInteger)index {
+    [self.arr insertObject:obj atIndex:index];
+}
+
+- (void)removeObjectFromArrAtIndex:(NSUInteger)index {
+    [self.arr removeObjectAtIndex:index];
+}
+
+- (void)replaceObjectInArrAtIndex:(NSUInteger)index withObject:(id)obj {
+    [self.arr replaceObjectAtIndex:index withObject:obj];
 }
 
 - (void)viewWillAppear:(BOOL)animated

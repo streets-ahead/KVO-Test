@@ -14,4 +14,11 @@
 
 @property (retain) NSMutableArray* arr;
 
+- (NSUInteger)countOfArr;
+- (id)objectInArrAtIndex:(NSUInteger)index;
+- (void)insertObject:(id)obj inArrAtIndex:(NSUInteger)index;
+- (void)removeObjectFromArrAtIndex:(NSUInteger)index;
+- (void)replaceObjectInArrAtIndex:(NSUInteger)index withObject:(id)obj;
+
+
 @end
