@@ -10,15 +10,16 @@
 
 @implementation RootViewController
 
-@synthesize myString;
+@synthesize arr;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     //Add observer
-    [self addObserver:self forKeyPath:@"myString" options:0 context:@"myContext"];
+    [self addObserver:self forKeyPath:@"arr" options:0 context:@"myContext"];
     
-    NSLog(@"setting myString...");
-    self.myString = @"Hello World";
+    NSLog(@"setting arr...");
+    self.arr = [NSMutableArray array];
+    [self.arr addObject:@"test"];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

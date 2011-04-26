@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController {
-    NSString* myString;
+    NSMutableArray* arr;
 }
 
-@property (retain) NSString* myString;
+@property (retain) NSMutableArray* arr;
 
 @end
