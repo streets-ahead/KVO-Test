@@ -12,7 +12,7 @@
     NSMutableArray* arr;
 }
 
-@property (retain) NSMutableArray* arr;
+@property  NSMutableArray* arr;
 
 - (NSUInteger)countOfArr;
 - (id)objectInArrAtIndex:(NSUInteger)index;
